@@ -1,0 +1,9 @@
+.idea
+*.iml
+.vscode
+*.log
+.nuxt
+.DS_store
+dist
+node_modules
+package-lock.json
