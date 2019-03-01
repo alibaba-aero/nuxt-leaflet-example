@@ -5,23 +5,15 @@
       class="map"
       :zoom="zoom"
       :center="center"
-      :options="options"
     >
       <LTileLayer :url="url" />
     </LMapSsr>
   </div>
 </template>
 
-<style scoped>
-.container, .map {
-  display: flex;
-  flex: 1;
-}
-</style>
-
 <script>
-import { LMapSsr, LTileLayer } from '@alibaba-aero/vue2-leaflet/src'
 import 'leaflet/dist/leaflet.css'
+import { LMapSsr, LTileLayer } from '@alibaba-aero/vue2-leaflet/src'
 
 export default {
   components: {
@@ -32,8 +24,7 @@ export default {
     return {
       zoom: 15,
       center: [47.413220, -1.219482],
-      url: 'http://{s}.tile.osm.org/{z}/{x}/{y}.png',
-      options: {}
+      url: 'http://{s}.tile.osm.org/{z}/{x}/{y}.png'
     }
   },
   mounted() {

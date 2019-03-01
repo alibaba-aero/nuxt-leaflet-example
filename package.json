@@ -10,6 +10,7 @@
   "dependencies": {
     "@alibaba-aero/vue2-leaflet": "^2.0.5",
     "leaflet": "^1.4.0",
+    "leaflet-draw": "^1.0.4",
     "nuxt-edge": "^2.5.0-25856648.83db9595"
   },
   "devDependencies": {
